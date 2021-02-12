@@ -1,0 +1,825 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+   width: auto;
+   
+}
+/* Шапка */
+header{
+height: 75px;
+width: 100%;
+background-color: #222222;
+}
+/* logo group */
+
+
+.brand-icons{
+position: absolute;
+height: 38px;
+width: 44px;
+left: 231px;
+top: 18px;
+}
+
+.search-icons{
+margin-left: 41px; 
+position: absolute;
+bottom: 98.56%;
+height: 26px;
+width: 26px;
+left: 315px;
+top: 28px;
+}
+/* button copy */
+
+.button-copy{
+    height: 37px;
+    width: 168px;
+    margin-top: 20px;
+    margin-right: 80px;
+    float: right;
+    display: flex;
+}
+
+.button-copy img{
+    margin-top: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+
+.new-arrivals{
+height: 148px;
+width: 100%;
+top: 75px;
+background: #F8F3F4;
+
+}
+.new-arrivals h3{
+height: 29px;
+width: 194px;
+left: 239px;
+top: 134px;
+text-transform: uppercase;
+position: absolute;
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #F16D7F;
+}
+
+.page-navigation{
+height: 17px;
+width: 209px;
+float: right;
+margin-top: 65px;
+margin-right: 230px;
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+}
+
+.page-navigation a{
+text-transform: uppercase;
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #636363;
+text-decoration: none;
+margin-left: 5px;
+}
+.page-navigation .active-href {
+    color: #F16D7F;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 100px;
+    width: 1000px;
+    float: left;
+    margin-left: 100px;
+}
+.filter{
+
+width: 70px;
+height: 17px;
+
+}
+.filter h3{
+    text-transform: uppercase;
+position: absolute;
+width: 44px;
+height: 17px;
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+.filter img{
+height: 10px;
+width: 15px;
+margin-left: 50px;
+}
+
+
+.sort{
+
+height: 17px;
+width: auto;
+}
+
+.sort h3{
+    float: left;
+    text-transform: uppercase;
+    color: #6F6E6E;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    margin-left: 15px;
+}
+.sort img{
+    margin-left: 5px;
+    color: gray;
+    
+}
+/*product*/
+.product{
+    
+max-height: 1800px;
+min-height: 1395px;
+width: 1140px;
+    
+    }
+    .card{
+        width: 100%;
+        max-height: 1800px;
+        display: flex;
+        flex-flow: wrap row;
+    }
+    .winter-jacket{
+    height: 581px;
+    width: 360px;
+    background: #F8F8F8;
+    margin-top: 30px;
+    }
+    
+    .winter-jacket h4{
+    text-transform: uppercase;
+    height: 16px;
+    width: 148;
+    margin-top: 25px;
+    margin-left: 18px ;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    
+    }
+    
+    .winter-jacket p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin: 12px 0 18px 18px ;
+    
+    color: #9F9F9F;
+    }
+    .winter-jacket span{
+    font-family: 'Lato', sans-serif;
+    height: 19px;
+    width: 52px;
+    margin-left: 18px;
+    color:  #F16D7F;
+    }
+       
+    
+    
+    
+    .trousers{
+    height: 581px;
+    width: 360px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background: #F8F8F8;
+    }
+        
+    .trousers h4{
+    text-transform: uppercase;
+    height: 16px;
+    width: 148;
+    margin-top: 25px;
+    margin-left: 18px ;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    }
+        
+    .trousers p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin: 12px 0 18px 18px ;   
+    color: #9F9F9F;
+    }
+    .trousers span{
+    font-family: 'Lato', sans-serif;
+    height: 19px;
+    width: 52px;
+    margin-left: 18px;
+    color:  #F16D7F;
+    }
+    .jacket{
+    margin-top: 30px;
+    height: 581px;
+    width: 360px;
+    margin-left: 30px;
+    background: #F8F8F8;
+    }
+            
+    .jacket h4{
+    text-transform: uppercase;
+    height: 16px;
+    width: 148;
+    margin-top: 25px;
+    margin-left: 18px ;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    }
+            
+    .jacket p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin: 12px 0 18px 18px ;
+    color: #9F9F9F;
+    }
+    .jacket span{
+    font-family: 'Lato', sans-serif;
+    height: 19px;
+    width: 52px;
+    margin-left: 18px;
+    color:  #F16D7F;
+    }
+    .t-shirt{
+    height: 581px;
+    width: 360px;
+    margin-top: 30px;
+    background: #F8F8F8;
+    }      
+    .t-shirt h4{
+    text-transform: uppercase;
+    height: 16px;
+    width: 148;
+    margin-top: 25px;
+    margin-left: 18px ;
+    top: 2021px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    }   
+    .t-shirt p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+     margin: 12px 0 18px 18px ;
+    color: #9F9F9F;
+    }
+    .t-shirt span{
+    font-family: 'Lato', sans-serif;
+    height: 19px;
+    width: 52px;
+    margin-left: 18px;
+    color:  #F16D7F;
+    }
+    .jumper{
+    height: 581px;
+    width: 360px;
+    margin-top: 30px;
+    top: 633px;
+    left: 360px;
+    margin-left: 30px;
+    background: #F8F8F8;
+    }
+                    
+    .jumper h4{
+    height: 16px;
+    width: 148;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-left: 18px ;
+    top: 2021px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    }
+                    
+    .jumper p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin: 12px 0 18px 18px ;
+    color: #9F9F9F;
+    }
+    .jumper span{
+    font-family: 'Lato', sans-serif;
+    height: 19px;
+    width: 52px;
+    margin-left: 18px;
+    color:  #F16D7F;
+    }
+    
+    
+    
+    .cap{
+    height: 581px;
+    width: 360px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background: #F8F8F8;
+    }
+                    
+    .cap h4{
+    text-transform: uppercase;
+    height: 16px;
+    width: 148;
+    margin-top: 25px;
+    margin-left: 18px ;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    }
+                    
+    .cap p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin: 12px 0 18px 18px ;
+    color: #9F9F9F;
+    }
+    .cap span{
+    font-family: 'Lato', sans-serif;
+    height: 19px;
+    width: 52px;
+    margin-left: 18px;
+    color:  #F16D7F;
+    }
+
+    .shirt{
+        height: 581px;
+        width: 360px;
+        margin-top: 30px;
+        background: #F8F8F8;
+        }
+                        
+        .shirt h4{
+        text-transform: uppercase;
+        height: 16px;
+        width: 148;
+        margin-top: 25px;
+        margin-left: 18px ;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight:bold;
+        font-size: 13px;
+        line-height: 16px;
+        color: #000000;
+        }
+                        
+        .shirt p{
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        margin: 12px 0 18px 18px ;
+        color: #9F9F9F;
+        }
+        .shirt span{
+        font-family: 'Lato', sans-serif;
+        height: 19px;
+        width: 52px;
+        margin-left: 18px;
+        color:  #F16D7F;
+        }
+
+        .hat{
+           
+            height: 581px;
+            width: 360px;
+            margin-top: 30px;
+            margin-left: 30px;
+            background: #F8F8F8;
+            }
+                            
+            .hat h4{
+            height: 16px;
+            width: 148;
+            text-transform: uppercase;
+            margin-top: 25px;
+            margin-left: 18px ;
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight:bold;
+            font-size: 13px;
+            line-height: 16px;
+            color: #000000;
+            }
+                            
+            .hat p{
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0em;
+            margin: 12px 0 18px 18px ;
+            color: #9F9F9F;
+            }
+            .hat span{
+            font-family: 'Lato', sans-serif;
+            height: 19px;
+            width: 52px;
+            margin-left: 18px;
+            color:  #F16D7F;
+            }
+            .cap{
+                height: 581px;
+                width: 360px;
+                margin-left: 30px;
+                margin-top: 30px;
+                background: #F8F8F8;
+                }
+                                
+                .cap h4{
+                text-transform: uppercase;
+                height: 16px;
+                width: 148;
+                margin-top: 25px;
+                margin-left: 18px ;
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                font-weight:bold;
+                font-size: 13px;
+                line-height: 16px;
+                color: #000000;
+                }
+                                
+                .cap p{
+                font-family: 'Lato', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 17px;
+                letter-spacing: 0em;
+                margin: 12px 0 18px 18px ;
+                color: #9F9F9F;
+                }
+                .cap span{
+                font-family: 'Lato', sans-serif;
+                height: 19px;
+                width: 52px;
+                margin-left: 18px;
+                color:  #F16D7F;
+                }
+                
+            
+                .shorts{
+                    height: 581px;
+                    width: 360px;
+                    margin-left: 30px;
+                    margin-top: 30px;
+                    background: #F8F8F8;
+                    }
+                                    
+                    .shorts h4{
+                    text-transform: uppercase;
+                    height: 16px;
+                    width: 148;
+                    margin-top: 25px;
+                    margin-left: 18px ;
+                    font-family: 'Lato', sans-serif;
+                    font-style: normal;
+                    font-weight:bold;
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: #000000;
+                    }
+                                    
+                    .shorts p{
+                    font-family: 'Lato', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    margin: 12px 0 18px 18px ;
+                    color: #9F9F9F;
+                    }
+                    .shorts span{
+                    font-family: 'Lato', sans-serif;
+                    height: 19px;
+                    width: 52px;
+                    margin-left: 18px;
+                    color:  #F16D7F;
+                    }
+
+
+.pagination{
+height: 54px;
+width: 283px;
+left: 430px;
+top: 1947px;
+border: 1px solid #EBEBEB;
+position: absolute;
+}
+
+.page {
+    position: absolute;
+    height: 19px;
+    width: 202px;
+    left: 40px;
+}
+.page-active{
+    color:  #F16D7F;
+    display: inline;
+}
+.page h2{
+    color: #E5E5E5;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.klik-one{
+    height: 14px;
+    width: 8px;
+    border-radius: 0px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.klik-two{
+    height: 14px;
+    width: 8px;
+    border-radius: 0px;
+    position: absolute;
+    left: 250px;
+    top: 20px;
+}
+/*feature*/
+
+.feature{
+    height: 341px;
+    width: 100%;
+    background: #222224;
+    display: flex;
+    margin-top:115px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    }
+    
+    .delivery{
+    height: 134px;
+    width: 360px;
+    margin: 0%;
+    }
+    
+    .discounts{
+    height: 134px;
+    width: 360px;
+    margin: 0%;
+    }
+    .qualty-assuranse{
+    height: 134px;
+    width: 360px;
+    margin: 0%;
+    }
+    
+    
+    .delivery, .discounts, .qualty-assuranse, img{
+        text-align: center;
+    }
+    
+    .delivery, .discounts, .qualty-assuranse, h2{
+    margin-top: 19px ;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    }
+    
+    .delivery, .discounts, .qualty-assuranse, p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.972px;
+    line-height: 20px;
+    color: #FBFBFB;
+    margin-top: 16px;
+    }
+    
+    
+    
+    /*mailing*/
+    
+    .mailing{
+    width: 100%;
+    height: 448px;
+    margin: 0 auto;
+    background: url(../img/photo\ subscribe.jpg);
+    display: flex;
+    align-items: center;
+    }
+    .subscribe-info{
+    width: 359.45px;
+    height: 225px;
+    
+    }
+    
+    .subscribe-info p{
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+    margin-top: 80px;
+    }
+    
+    .subscribe{
+    height: 142px;
+    width: 557px;
+    }
+    
+    .subscribe h2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    }
+    .subscribe h3{
+        font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    }
+    .forma-input{
+        display: flex;
+        
+        width: 356px;
+    }
+    .mailing-form{
+    height: 49px;
+    width: 256px;
+    background: #E1E1E1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0;
+    }
+    
+    .ruunder1{
+    height: 49px;
+    width: 100px;
+    background: #F16D7F;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    }
+    .forma-input input{
+    height: 20px;
+    width: 170px;
+    border: 0 solid;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 8px;
+    margin-left: 20px;
+    background-color:#E1E1E1; ;
+    color: #222224;
+    opacity: 0.67;
+    }
+    .ruunder1 button{
+    height: 36px;
+    width: 85px;
+    background: #F16D7F;
+    border: 0 solid;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    
+    
+    /*footer*/
+    
+    footer{
+    height: 79px;
+    width: 100%;
+    background: #222224;
+    }
+    
+    footer P{
+    height: 19px;
+    width: 332px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 auto;
+    float: left;
+    margin-left: 235px;
+    margin-top: 30px;
+    color: #FBFBFB;
+    }
+    
+    .icons{
+    height: 32px;
+    width: 177px;
+    border-radius: 0px;
+    float: right;
+    margin-top: 24px;
+    margin-right: 230px;
+    }
+    
+    
+    .faccebok-icons, .instaram-icons, .pixess-icons, .twitter-icons {
+        background-color: #E1E1E1;
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-left: 10px;
+        text-align: center;
+        padding-top: 5px;
+    }
